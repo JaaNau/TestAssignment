@@ -1,13 +1,4 @@
-// node 12 and up
-//import chai from "chai"
-//import add from "../add.js"
-
-// below for node 10
-var chai = require("chai")
 var add = require ("../add.js")
-
-
-const expect = chai.expect
 
 
 describe("Add", () => {
