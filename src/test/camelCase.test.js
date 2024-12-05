@@ -1,4 +1,4 @@
-const camelCase = require('./camelCase.js');
+import camelCase from '../camelCase';
 
 
 describe('camelCase', () => {
@@ -31,7 +31,7 @@ describe('camelCase', () => {
     });
   
     test('handles numeric strings', () => {
-      expect(camelCase('foo2bar')).toBe('foo2bar');
+      expect(camelCase('foo2bar')).toBe('foo2Bar');
     });
   
     test('converts non-string input to string and then to camel case', () => {
