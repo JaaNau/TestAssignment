@@ -1,4 +1,4 @@
-import drop from './drop';
+import drop from '../drop';
 
 describe('drop', () => {
   it('should drop 1 element by default', () => {
