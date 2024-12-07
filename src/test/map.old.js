@@ -1,4 +1,5 @@
 import map from '../map';
+
 describe('map', () => {
   it('should apply the iteratee function to each element of the array', () => {
     const array = [1, 2, 3];

@@ -1,4 +1,5 @@
 import eq from '../eq';
+
 describe('eq', () => {
   it('should return true for identical objects (same reference)', () => {
     const object = { 'a': 1 };
