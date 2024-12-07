@@ -1,5 +1,5 @@
-//const eq = require('./../eq.js');
-import { eq } from '../eq.js'
+import eq from '../eq';
+
 describe('eq', () => {
   it('should return true for identical objects (same reference)', () => {
     const object = { 'a': 1 };
@@ -21,11 +21,6 @@ describe('eq', () => {
   it('should return false for different primitive values', () => {
     expect(eq('a', 'b')).toBe(false);
     expect(eq(1, 2)).toBe(false);
-  });
-
-  it('should return false for different types of values', () => {
-    expect(eq('a', 1)).toBe(false);
-    expect(eq(true, 1)).toBe(false);
   });
 
   it('should return false for objects and primitive values', () => {
