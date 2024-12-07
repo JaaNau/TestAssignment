@@ -1,5 +1,5 @@
 // countBy.test.js
-import countBy from './countBy';
+import countBy from '../countBy';
 
 describe('countBy', () => {
   it('should count the occurrences based on the iteratee', () => {

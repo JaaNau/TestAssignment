@@ -1,4 +1,4 @@
-import { defaultTo } from './../defaultTo.js'
+import { defaultTo } from '../defaultTo.js'
 
 describe('defaultTo', () => {
   it('should return the value when it is not null, undefined, or NaN', () => {

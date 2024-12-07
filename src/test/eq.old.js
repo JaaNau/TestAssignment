@@ -1,5 +1,5 @@
 //const eq = require('./../eq.js');
-import { eq } from './../eq.js'
+import { eq } from '../eq.js'
 describe('eq', () => {
   it('should return true for identical objects (same reference)', () => {
     const object = { 'a': 1 };
