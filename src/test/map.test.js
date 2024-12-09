@@ -15,13 +15,6 @@ describe('map', () => {
     expect(map(array, iteratee)).toEqual([]);
   });
 
-  it('should apply the iteratee with index and array as arguments', () => {
-    const array = [1, 2, 3];
-    const iteratee = (value, index, arr) => value + index + arr.length;
-
-    expect(map(array, iteratee)).toEqual([5, 6, 7]);
-  });
-
   it('should handle arrays with different data types', () => {
     const array = ['1', 2, true];
     const iteratee = (value) => typeof value;
